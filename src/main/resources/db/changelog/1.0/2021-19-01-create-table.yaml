@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: alexey_overchenko
+      changes:
+        - createTable:
+            tableName: city
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: city
+                  type: varchar(50)
+                  constraints:
+                    nullable: true
+              - column:
+                  name: recommendation
+                  type: varchar(50)
+                  constraints:
+                    nullable: false

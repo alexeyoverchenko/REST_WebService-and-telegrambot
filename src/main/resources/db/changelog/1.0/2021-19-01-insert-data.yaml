@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - changeSet:
+      id: IN-CSA-1
+      author: alexey_overchenko
+      changes:
+        -  sqlFile:
+             dbms:  '!h2,  oracle,  mysql'
+             encoding:  UTF-8
+             endDelimiter: ;
+             path: ../sql/2021-19-01-insert-city-info.sql
+             relativeToChangelogFile: true
+             splitStatements:  true
+             stripComments:  true
+
