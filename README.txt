@@ -1,17 +1,19 @@
 Запуск:
 
-1. установите liquibase, если его нет (https://www.liquibase.org/download)
-2. в application properties указываем свою базу данных и пароль,
+проект back - https://github.com/alexeyoverchenko/REST_WebService-and-telegrambot.git
+проект front - https://github.com/alexeyoverchenko/REST_WebService-and-telegrambot_frontend.git
+
+1. установите liquibase, если необходимо (https://www.liquibase.org/download)
+2. back. в application properties указываем свою базу данных и пароль,
    при необходимости корректируем url сервера
-3. запустите приложение
-4. в терминале среды разработки используйте команды
+3. запустите back приложение
+4. front. в терминале среды разработки используйте команды
 	npm cd … - (если необходимо) чтобы перейти к папке frontend, находящейся в корне
 	npm i - чтобы проинсталлировать все модули
 	npm start - запускаем ui
 5. для редактирования базы используем адрес - http://localhost:3000/resliv/city
 6. найти бота в телеграм можно по имени @reslivCity
     (username и token лежат в пакете http://by.task.resliv.bot/)
-
 
 Задание:
 
