@@ -12,7 +12,7 @@
 	npm start - запускаем ui
 5. для редактирования базы используем адрес - http://localhost:3000/resliv/city
 6. найти бота в телеграм можно по имени @reslivCity
-    (username и token лежат в пакете http://by.task.resliv.bot/)
+    (username и token лежат в классе пакета http://by.task.resliv.bot/)
 
 Задание:
 
